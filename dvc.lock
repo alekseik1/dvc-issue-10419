@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  main:
+    cmd: python main.py
+    deps:
+    - path: file.txt
+      hash: md5
+      md5: 4f98f59e877ecb84ff75ef0fab45bac5
+      size: 3

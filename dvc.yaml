@@ -1,0 +1,6 @@
+stages:
+  main:
+    cmd: python main.py
+    deps:
+      - file.txt
+
