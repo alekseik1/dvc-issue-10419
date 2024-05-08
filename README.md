@@ -20,5 +20,5 @@ dvc exp run -n 'absolute-imports' --queue
 ```bash
 dvc queue start
 ```
-5. Open logs and watch `'queue'` being printed.
+5. Open logs and watch `'main'` being printed while your experiment had string value equal to `'queue'`.
 

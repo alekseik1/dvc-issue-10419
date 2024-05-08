@@ -9,5 +9,5 @@ stages:
       size: 17
     - path: dvc_simple//main.py
       hash: md5
-      md5: ff33935e58a715a494c0ab22fc50f90c
-      size: 218
+      md5: de997c9b1571db99546c05bce4686be4
+      size: 285
