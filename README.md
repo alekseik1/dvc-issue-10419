@@ -22,3 +22,5 @@ dvc queue start
 ```
 5. Open logs and watch `'main'` being printed while your experiment had string value equal to `'queue'`.
 
+If you change imports in main from `from dvc_simple.deep import dep` to `from deep import dep`, this bug goes away.
+
