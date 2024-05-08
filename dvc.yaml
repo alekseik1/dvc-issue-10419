@@ -3,5 +3,5 @@ stages:
     cmd: poetry run python ${wd}/main.py
     deps:
       - ${wd}/main.py
-      - ${wd}/dep.py
+      - ${wd}/deep/dep.py
 

@@ -1,4 +1,4 @@
-from dep import my_str
+from dvc_simple.deep import dep
 
-print(my_str)
+print(dep.my_str)
 
