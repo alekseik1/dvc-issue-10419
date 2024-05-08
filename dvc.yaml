@@ -1,7 +1,7 @@
 stages:
   main:
-    cmd: python /home/aleksei/git/dvc-simple/main.py
+    cmd: python main.py
     deps:
-      - /home/aleksei/git/dvc-simple/main.py
-      - /home/aleksei/git/dvc-simple/dep.py
+      - main.py
+      - dep.py
 

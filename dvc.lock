@@ -1,7 +1,7 @@
 schema: '2.0'
 stages:
   main:
-    cmd: python /home/aleksei/git/dvc-simple/main.py
+    cmd: python main.py
     deps:
     - path: dep.py
       hash: md5
