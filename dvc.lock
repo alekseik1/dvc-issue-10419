@@ -3,7 +3,11 @@ stages:
   main:
     cmd: python main.py
     deps:
-    - path: file.txt
+    - path: dep.py
       hash: md5
-      md5: 4f98f59e877ecb84ff75ef0fab45bac5
-      size: 3
+      md5: 48d85cac962e5cdeb85b07312cd23c51
+      size: 17
+    - path: main.py
+      hash: md5
+      md5: df850e8f701d918d576a3692ea0a5789
+      size: 39
