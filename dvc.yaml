@@ -1,7 +1,7 @@
 stages:
   main:
-    cmd: poetry run python dvc_simple/main.py
+    cmd: poetry run python ${wd}/main.py
     deps:
-      - dvc_simple/main.py
-      - dvc_simple/dep.py
+      - ${wd}/main.py
+      - ${wd}/dep.py
 

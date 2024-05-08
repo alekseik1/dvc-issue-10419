@@ -1,13 +1,13 @@
 schema: '2.0'
 stages:
   main:
-    cmd: poetry run python dvc_simple/main.py
+    cmd: poetry run python dvc_simple//main.py
     deps:
-    - path: dvc_simple/dep.py
+    - path: dvc_simple//dep.py
       hash: md5
       md5: 48d85cac962e5cdeb85b07312cd23c51
       size: 17
-    - path: dvc_simple/main.py
+    - path: dvc_simple//main.py
       hash: md5
       md5: df850e8f701d918d576a3692ea0a5789
       size: 39
